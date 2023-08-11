@@ -1,0 +1,1091 @@
+#main {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(3, 1, 24);
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  position: relative;
+  font-family: "Cinzel", serif;
+  font-family: "Edu SA Beginner", cursive;
+}
+#main > section {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: auto;
+  justify-content: end;
+  background-color: rgb(3, 1, 24);
+}
+#main > section > aside {
+  background-color: rgb(3, 1, 24);
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  border-right: 2px solid rgba(97, 97, 245, 0.301);
+}
+@media screen and (min-width: 1280px) {
+  #main > section > aside {
+    align-items: flex-start;
+  }
+}
+#main > section > aside > div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#main > section > aside > div > figure {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+#main > section > aside > div > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 50%;
+  border: 1px solid grey;
+  background-color: #1af186;
+}
+#main > section > aside > div > nav {
+  width: 100%;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+}
+#main > section > aside > div > nav > ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+#main > section > aside > div > nav > ul > li {
+  list-style: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+}
+#main > section > aside > div > nav > ul > li:nth-of-type(1) > a {
+  color: yellow;
+}
+#main > section > aside > div > nav > ul > li > a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#main > section > aside > div > nav > ul > li > a:hover {
+  color: yellow;
+}
+#main > section > aside > div > a {
+  width: 170px;
+  height: 50px;
+  border-radius: 30px;
+  border: 1px solid gold;
+  text-transform: capitalize;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  transition: 0.2s;
+  align-items: center;
+}
+#main > section > aside > div > a:hover {
+  background-color: gold;
+  color: inherit;
+}
+#main > section > div {
+  height: 50px;
+  background-color: rgb(3, 1, 24);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+#main > section > div > figure {
+  width: 15%;
+  height: 45px;
+  padding: 0 10px;
+  margin-top: 10px;
+}
+#main > section > div > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 50%;
+  border: 1px solid grey;
+  background-color: rgba(26, 241, 134, 0.6588235294);
+}
+#main > section > div > nav {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  width: 85%;
+  padding: 0 15px;
+}
+#main > section > div > nav > li {
+  background-color: black;
+  height: 100%;
+  list-style: none;
+  width: 50px;
+}
+#main > section > div > nav > li > a {
+  color: rgb(185, 183, 183);
+  transform: rotateZ(90deg);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+#main > section > div > nav > li:hover > ul {
+  height: 250px;
+}
+#main > section > div > nav > li > ul {
+  position: absolute;
+  left: 50%;
+  top: 50px;
+  background-color: rgb(3, 1, 24);
+  height: 0px;
+  width: 50%;
+  overflow: hidden;
+  transition: 0.6s;
+}
+#main > section > div > nav > li > ul > li {
+  list-style: none;
+  width: 100%;
+  padding: 0 10px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+#main > section > div > nav > li > ul > li:nth-of-type(1) > a {
+  color: gold;
+}
+#main > section > div > nav > li > ul > li > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+#main > section > div > nav > li > ul > li > a:hover {
+  color: gold;
+}
+#main > section > header {
+  background-image: url(../img/wp4865484-space-stars-4k-wallpapers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+#main > section > header div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#main > section > header div > span {
+  color: white;
+  text-transform: capitalize;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  justify-content: center;
+}
+#main > section > header div > h1 {
+  color: rgba(255, 217, 0, 0.747);
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+@media screen and (max-width: 576px) {
+  #main > section > header div > h1 {
+    font-size: 40px;
+  }
+}
+#main > section > header div > p {
+  color: rgb(175, 174, 174);
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-align: center;
+  display: flex;
+  width: 80%;
+  text-transform: capitalize;
+}
+#main > section > header div > div {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#main > section > header div > div > a {
+  border-radius: 50%;
+  border: 1px solid grey;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  margin: 20px;
+}
+#main > section > header div > div > a:hover {
+  border: 1px solid white;
+}
+#main > section > header > .blob {
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid rgba(70, 200, 240, 0.151);
+  animation: blob 15s infinite linear;
+}
+#main > section > header > .blob:nth-of-type(1) {
+  left: 7%;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 20px 10px inset rgba(85, 85, 245, 0.418);
+  animation-delay: 2s;
+}
+#main > section > header > .blob:nth-of-type(2) {
+  left: 20%;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 0 5px 10px inset rgba(85, 85, 245, 0.418);
+  animation-delay: 1s;
+}
+#main > section > header > .blob:nth-of-type(3) {
+  left: -5%;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 0 40px 10px inset rgba(85, 85, 245, 0.418);
+  animation-delay: 2s;
+}
+#main > section > header > .blob:nth-of-type(4) {
+  left: 40%;
+  width: 70px;
+  height: 70px;
+  box-shadow: 0 0 10px 10px inset rgba(85, 85, 245, 0.418);
+  animation-delay: 4s;
+}
+#main > section > header > .blob:nth-of-type(5) {
+  left: 70%;
+  width: 90px;
+  height: 90px;
+  box-shadow: 0 0 15px 10px inset rgba(85, 85, 245, 0.418);
+  animation-delay: 2s;
+}
+#main > section > header > .blob:nth-of-type(6) {
+  left: 60%;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 0 10px 5px inset rgba(85, 85, 245, 0.418);
+  animation-delay: 3s;
+}
+#main > section > header > .blob:nth-of-type(7) {
+  left: 85%;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 0 15px 5px inset rgba(85, 85, 245, 0.418);
+  animation-delay: 3s;
+}
+#main > section > header > .blob:nth-of-type(8) {
+  left: 90%;
+  width: 140px;
+  height: 140px;
+  box-shadow: 0 0 40px 10px inset rgba(85, 85, 245, 0.418);
+  animation-delay: 0s;
+}
+#main > section > header > .blob:nth-of-type(9) {
+  left: 75%;
+  width: 80px;
+  height: 80px;
+  box-shadow: 0 0 10px 10px inset rgba(85, 85, 245, 0.418);
+  animation-delay: 3s;
+}
+#main > section > header > .blob:nth-of-type(10) {
+  left: 55%;
+  width: 70px;
+  height: 70px;
+  box-shadow: 0 0 10px 10px inset rgba(85, 85, 245, 0.418);
+  animation-delay: 1s;
+}
+#main > section > header > .blob:nth-of-type(11) {
+  left: 30%;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 20px 10px inset rgba(85, 85, 245, 0.418);
+  animation-delay: 0s;
+}
+@keyframes blob {
+  0% {
+    top: 120%;
+  }
+  10% {
+    top: 100%;
+  }
+  20% {
+    top: 90%;
+    transform: translateX(0);
+  }
+  30% {
+    top: 75%;
+    transform: translateX(50px);
+  }
+  40% {
+    top: 60%;
+    transform: translateX(10px);
+  }
+  50% {
+    top: 50%;
+    transform: translateX(40px);
+  }
+  60% {
+    top: 40%;
+    transform: translateX(70px);
+  }
+  70% {
+    top: 30%;
+    transform: translateX(120px);
+  }
+  80% {
+    top: 20%;
+    transform: translateX(150px);
+  }
+  90% {
+    top: 10%;
+    transform: translateX(50px);
+  }
+  100% {
+    top: -10%;
+    transform: translateX(0px);
+  }
+}
+#main > section > section {
+  background-color: rgb(3, 1, 24);
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 15px;
+}
+#main > section > section > div {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+#main > section > section > div > h3 {
+  font-size: 25px;
+  color: rgba(255, 217, 0, 0.712);
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+#main > section > section > div > h4 {
+  position: absolute;
+  color: rgba(128, 128, 128, 0.212);
+  top: 50px;
+  left: 30%;
+  font-size: 70px;
+  text-transform: capitalize;
+}
+@media screen and (max-width: 576px) {
+  #main > section > section > div > h4 {
+    font-size: 50px;
+    left: 25%;
+    top: 60px;
+  }
+}
+#main > section > section > div > span {
+  width: 200px;
+  height: 3px;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 90px;
+  left: 40%;
+}
+@media screen and (max-width: 576px) {
+  #main > section > section > div > span {
+    left: 30%;
+  }
+}
+#main > section > section > div > span > span {
+  width: 100px;
+  background-color: rgba(255, 217, 0, 0.719);
+  height: 100%;
+  display: flex;
+}
+#main > section > section > article {
+  margin-top: 40px;
+  background-color: rgb(3, 1, 24);
+}
+#main > section > section > article > figure {
+  flex-wrap: wrap;
+}
+#main > section > section > article > figure > img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 70px;
+}
+#main > section > section > article > figure > figcaption {
+  height: 100%;
+  display: flex;
+  padding: 40px 0;
+  flex-wrap: wrap;
+  padding-left: 40px;
+  background-color: rgb(3, 1, 24);
+}
+#main > section > section > article > figure > figcaption > h2 {
+  font-size: 40px;
+  color: white;
+  text-transform: uppercase;
+}
+#main > section > section > article > figure > figcaption > span {
+  display: flex;
+  width: 100%;
+  font-size: 22px;
+  color: white;
+}
+#main > section > section > article > figure > figcaption > span:nth-of-type(1) {
+  color: rgba(255, 217, 0, 0.699);
+}
+@media screen and (max-width: 576px) {
+  #main > section > section > article > figure > figcaption > span {
+    font-size: 17px;
+  }
+}
+#main > section > section > article > figure > figcaption > p {
+  color: grey;
+  font-size: 20px;
+}
+#main > section > section > article > figure > figcaption > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  border-radius: 40px;
+  background-color: gold;
+  margin-top: 40px;
+  text-transform: uppercase;
+  color: inherit;
+  text-decoration: none;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 13px;
+}
+@media screen and (max-width: 576px) {
+  #main > section > section > article > figure > figcaption > a {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+}
+#main > section > .skills {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  background-color: rgb(3, 1, 24);
+  padding-left: 20px;
+}
+#main > section > .skills > .skil {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+#main > section > .skills > .skil > h3 {
+  font-size: 40px;
+  color: rgba(255, 217, 0, 0.699);
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+#main > section > .skills > .skil > h4 {
+  position: absolute;
+  color: rgba(128, 128, 128, 0.212);
+  top: 40px;
+  left: 30%;
+  font-size: 90px;
+  text-transform: capitalize;
+}
+@media screen and (max-width: 576px) {
+  #main > section > .skills > .skil > h4 {
+    font-size: 80px;
+    left: 20%;
+    top: 40px;
+  }
+}
+#main > section > .skills > .skil > span {
+  width: 250px;
+  height: 3px;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 100px;
+  left: 35%;
+}
+@media screen and (max-width: 576px) {
+  #main > section > .skills > .skil > span {
+    left: 20%;
+  }
+}
+#main > section > .skills > .skil > span > span {
+  width: 100px;
+  background-color: gold;
+  height: 100%;
+  display: flex;
+}
+#main > section > .skills > div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+#main > section > .skills > div > div {
+  background-color: rgb(3, 1, 24);
+}
+#main > section > .skills > div > div:nth-of-type(1) > p {
+  color: grey;
+  text-align: left;
+  font-weight: 0;
+  font-size: 18px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+#main > section > .skills > div > div:nth-of-type(1) > p:nth-of-type(1) {
+  color: white;
+  font-size: 40px;
+  font-family: "Cinzel", serif;
+  font-family: "Edu SA Beginner", cursive;
+}
+#main > section > .skills > div > div:nth-of-type(2) > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  align-items: center;
+  margin-bottom: 70px;
+}
+#main > section > .skills > div > div:nth-of-type(2) > div:nth-of-type(4) > span:nth-of-type(2) {
+  margin-left: 40px;
+}
+#main > section > .skills > div > div:nth-of-type(2) > div:nth-of-type(3) > span:nth-of-type(2) {
+  margin-left: 50px;
+}
+#main > section > .skills > div > div:nth-of-type(2) > div > span {
+  color: white;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+#main > section > .skills > div > div:nth-of-type(2) > div > span:nth-of-type(2) {
+  margin-left: 80px;
+}
+#main > section > .skills > div > div:nth-of-type(2) > div > progress {
+  width: 200px;
+  height: 20px;
+  background-color: rgb(44, 27, 230);
+}
+#main > section > .portfolio {
+  height: auto;
+  justify-content: center;
+  background-color: rgb(3, 1, 24);
+  padding-left: 20px;
+}
+#main > section > .portfolio > .port {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+#main > section > .portfolio > .port > h3 {
+  font-size: 40px;
+  color: rgba(255, 217, 0, 0.685);
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+#main > section > .portfolio > .port > h4 {
+  position: absolute;
+  color: rgba(128, 128, 128, 0.212);
+  top: 40px;
+  left: 30%;
+  font-size: 110px;
+  text-transform: capitalize;
+}
+@media screen and (max-width: 576px) {
+  #main > section > .portfolio > .port > h4 {
+    font-size: 100px;
+    left: 15%;
+    top: 30px;
+  }
+}
+#main > section > .portfolio > .port > span {
+  width: 250px;
+  height: 3px;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 100px;
+  left: 35%;
+}
+@media screen and (max-width: 576px) {
+  #main > section > .portfolio > .port > span {
+    left: 20%;
+  }
+}
+#main > section > .portfolio > .port > span > span {
+  width: 100px;
+  background-color: gold;
+  height: 100%;
+  display: flex;
+}
+#main > section > .portfolio > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+#main > section > .portfolio > div > figure {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+@media screen and (min-width: 768px) {
+  #main > section > .portfolio > div > figure {
+    margin: 20px 5px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #main > section > .portfolio > div > figure {
+    height: 250px;
+  }
+}
+#main > section > .portfolio > div > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 1s;
+}
+#main > section > .portfolio > div > figure > figcaption {
+  border: 1px solid white;
+  position: absolute;
+  display: flex;
+  opacity: 0;
+  top: 20px;
+  left: 20px;
+  width: 80%;
+  height: 80%;
+  transition: 1s;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 768px) {
+  #main > section > .portfolio > div > figure > figcaption {
+    width: 90%;
+  }
+}
+#main > section > .portfolio > div > figure > figcaption > a {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: goldenrod;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+#main > section > .portfolio > div > figure > figcaption > h4 {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+#main > section > .portfolio > div > figure > figcaption > span {
+  color: grey;
+  font-size: 17px;
+  text-align: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+#main > section > .portfolio > div > figure:hover > figcaption {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.466);
+  box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.466);
+}
+#main > section > .portfolio > div > figure:hover > img {
+  scale: 1.2;
+}
+#main > section > .portfolio > a {
+  width: 200px;
+  height: 70px;
+  border: 1px solid gold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: goldenrod;
+  text-decoration: none;
+  border-radius: 30px;
+  text-transform: capitalize;
+  margin-top: 50px;
+  transition: 0.6s;
+  font-size: 20px;
+  font-weight: bold;
+}
+#main > section > .portfolio > a:hover {
+  background-color: gold;
+  color: inherit;
+}
+#main > section > .blog {
+  height: auto;
+  justify-content: center;
+  background-color: rgb(3, 1, 24);
+  padding: 0 20px;
+}
+#main > section > .blog > .news {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+#main > section > .blog > .news > h3 {
+  font-size: 40px;
+  color: rgba(255, 217, 0, 0.712);
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+#main > section > .blog > .news > h4 {
+  position: absolute;
+  color: rgba(128, 128, 128, 0.212);
+  top: 40px;
+  left: 30%;
+  font-size: 90px;
+  text-transform: capitalize;
+}
+@media screen and (max-width: 576px) {
+  #main > section > .blog > .news > h4 {
+    font-size: 70px;
+    left: 20%;
+    top: 50px;
+  }
+}
+#main > section > .blog > .news > span {
+  width: 200px;
+  height: 3px;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 100px;
+  left: 40%;
+}
+@media screen and (max-width: 576px) {
+  #main > section > .blog > .news > span {
+    left: 30%;
+  }
+}
+#main > section > .blog > .news > span > span {
+  width: 100px;
+  background-color: gold;
+  height: 100%;
+  display: flex;
+}
+#main > section > .blog > div {
+  justify-content: space-between;
+  margin-top: 70px;
+}
+#main > section > .blog > div > figure {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: start;
+  overflow: hidden;
+}
+@media screen and (min-width: 768px) {
+  #main > section > .blog > div > figure {
+    width: 30%;
+  }
+}
+#main > section > .blog > div > figure > img {
+  width: 100%;
+  height: 50%;
+  -o-object-fit: 90%;
+     object-fit: 90%;
+  transition: 0.6s;
+  overflow: hidden;
+}
+#main > section > .blog > div > figure > img:hover {
+  scale: 1.1;
+}
+#main > section > .blog > div > figure > figcaption {
+  height: 50%;
+  width: 100%;
+}
+#main > section > .blog > div > figure > figcaption > div {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: start;
+  flex-wrap: nowrap;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding-top: 5px;
+}
+#main > section > .blog > div > figure > figcaption > div > span {
+  font-size: 15px;
+  margin-left: 10px;
+  color: grey;
+}
+#main > section > .blog > div > figure > figcaption > div > a {
+  text-decoration: none;
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  border-right: 1px solid grey;
+  color: rgba(255, 217, 0, 0.74);
+  height: 50%;
+  text-transform: capitalize;
+}
+#main > section > .blog > div > figure > figcaption > div > a:hover {
+  color: rgba(255, 217, 0, 0.342);
+}
+#main > section > .blog > div > figure > figcaption > a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+#main > section > .blog > div > figure > figcaption > a:hover {
+  color: gold;
+}
+#main > section > .contact {
+  height: auto;
+  justify-content: center;
+  background-color: rgb(3, 1, 24);
+}
+#main > section > .contact > .me {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+#main > section > .contact > .me > h3 {
+  font-size: 40px;
+  color: rgba(255, 217, 0, 0.781);
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+#main > section > .contact > .me > h4 {
+  position: absolute;
+  color: rgba(128, 128, 128, 0.212);
+  top: 40px;
+  left: 30%;
+  font-size: 90px;
+  text-transform: capitalize;
+}
+#main > section > .contact > .me > span {
+  width: 250px;
+  height: 3px;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 100px;
+  left: 35%;
+}
+@media screen and (max-width: 576px) {
+  #main > section > .contact > .me > span {
+    left: 20%;
+  }
+}
+#main > section > .contact > .me > span > span {
+  width: 100px;
+  background-color: gold;
+  height: 100%;
+  display: flex;
+}
+#main > section > .contact > div {
+  flex-wrap: wrap;
+  margin-top: 100px;
+  background-color: rgb(3, 1, 24);
+}
+#main > section > .contact > div > .just {
+  height: 550px;
+  padding: 0 20px;
+  background-color: rgb(3, 1, 24);
+}
+#main > section > .contact > div > .just > h4 {
+  color: white;
+  font-size: 30px;
+}
+#main > section > .contact > div > .just > form {
+  height: auto;
+  background-color: rgb(3, 1, 24);
+  justify-content: start;
+}
+#main > section > .contact > div > .just > form > input {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding-left: 10px;
+  height: 50px;
+  background-color: #101624;
+  color: white;
+  border: 1px solid #101624;
+}
+#main > section > .contact > div > .just > form > input:hover {
+  border: 1px solid gold;
+}
+#main > section > .contact > div > .just > form > label {
+  width: 100%;
+  display: flex;
+}
+#main > section > .contact > div > .just > form > textarea {
+  width: 100%;
+  margin-top: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  background-color: #101624;
+  border: 1px solid #101624;
+}
+#main > section > .contact > div > .just > form > textarea:hover {
+  border: 1px solid gold;
+}
+#main > section > .contact > div > .just > form > a {
+  width: 150px;
+  text-decoration: none;
+  height: 50px;
+  background-color: gold;
+  color: black;
+  font-size: 18px;
+  border-radius: 30px;
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  text-transform: capitalize;
+  align-items: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+#main > section > .contact > div > .info {
+  height: 550px;
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#main > section > .contact > div > .info > h4 {
+  font-size: 35px;
+  color: white;
+}
+#main > section > .contact > div > .info > div {
+  width: 100%;
+  height: 40%;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+#main > section > .contact > div > .info > div > div {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+#main > section > .contact > div > .info > div > div:hover > i {
+  border: 1px solid gold;
+}
+#main > section > .contact > div > .info > div > div > div {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 7px 20px;
+}
+#main > section > .contact > div > .info > div > div > div > h5 {
+  color: white;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+#main > section > .contact > div > .info > div > div > div > span {
+  color: whitesmoke;
+  font-size: 15px;
+  display: flex;
+  width: 100%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+#main > section > .contact > div > .info > div > div > i {
+  width: 15%;
+  height: 80%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  color: white;
+  font-size: 30px;
+}
+#main > section > .contact > div > .info > span {
+  color: white;
+  margin-top: -50px;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+#main > section > .contact > div > .info > .soc {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-top: 30px;
+}
+#main > section > .contact > div > .info > .soc > a {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: white;
+  border-radius: 50%;
+  height: 50px;
+  text-decoration: none;
+  transition: 1s;
+  font-size: 20px;
+  border: 1px solid white;
+}
+#main > section > .contact > div > .info > .soc > a > span {
+  display: none;
+  transition: 1S;
+}
+#main > section > .contact > div > .info > .soc > a:hover {
+  width: 25%;
+  border-radius: 40px;
+}
+#main > section > .contact > div > .info > .soc > a:hover > span {
+  display: flex;
+}/*# sourceMappingURL=index1.css.map */

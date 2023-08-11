@@ -1,0 +1,8 @@
+
+.icon-plus:before { content: '\e800'; } /* '' */
+.icon-mail:before { content: '\e803'; } /* '' */
+.icon-phone:before { content: '\e804'; } /* '' */
+.icon-location:before { content: '\e805'; } /* '' */
+.icon-github-circled:before { content: '\f09b'; } /* '' */
+.icon-instagram:before { content: '\f16d'; } /* '' */
+.icon-linkedin:before { content: '\f318'; } /* '' */
